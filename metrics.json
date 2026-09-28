@@ -1,0 +1,37 @@
+{
+  "fecha_entrenamiento": "2026-09-28T01:44:53.279941+00:00",
+  "metricas": {
+    "r2_test": 0.9162,
+    "rmse_test": 25348.27,
+    "mae_test": 16587.64,
+    "r2_train": 0.9628,
+    "rmse_train": 14888.82,
+    "mae_train": 10809.99,
+    "r2_cv_5fold": 0.8462,
+    "filas_train": 1168,
+    "filas_test": 292
+  },
+  "columnas": [
+    "OverallQual",
+    "GrLivArea",
+    "GarageCars",
+    "TotalBsmtSF",
+    "FullBath",
+    "YearBuilt",
+    "YearRemodAdd",
+    "LotArea",
+    "KitchenQual",
+    "ExterQual",
+    "CentralAir",
+    "Neighborhood"
+  ],
+  "versiones_librerias": {
+    "python": "3.14.3",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "joblib": "1.6.0",
+    "pydantic": "2.13.5",
+    "fastapi": "0.141.1"
+  }
+}
